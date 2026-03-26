@@ -4,25 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netflix</title>
-  </head>
+    <link rel="stylesheet" href="styles.css" />
   <body>
+    <nav aria-label="Navegação principal">
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Séries</a></li>
+        <li><a href="#">Filmes</a></li>
+        <li><a href="#">Minha Lista</a></li>
+      </ul>
+    </nav>
     <main>
-      <h1>Quem está assistindo?</h1>
-      <div class="profilees">
-        <div class="profile">
+      <header>
+        <h1>Quem está assistindo?</h1>
+      </header>
+      <section class="profiles" aria-label="Perfis de usuário">
+        <figure class="profile">
           <img
-            src=""
-            alt="Perfil 1"
+            src="assets/Gemini_Generated_Image_41nyse41nyse41ny.png"
+            alt="Foto do Perfil 1"
           />
-          <p>Perfil 1</p>
-          <div class="profile">
+          <figcaption>Perfil 1</figcaption>
+        </figure>
+        <figure class="profile">
           <img
-            src=""
-            alt="Perfil 1"
+            src="assets/Gemini_Generated_Image_ihvmdoihvmdoihvm.png"
+            alt="Foto do Perfil 2"
           />
-          <p>Perfil 1</p>
-        </div>
-      </div>
+          <figcaption>Perfil 2</figcaption>
+        </figure>
+      </section>
     </main>
   </body>
 </html>
